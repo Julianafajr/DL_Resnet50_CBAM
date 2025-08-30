@@ -1,0 +1,2560 @@
+Epoch 1/100, LR: 0.000043
+
+Epoch 1/100:
+Training Accuracy: 26.88%    Validation Accuracy: 33.71%
+Training Loss: 1.5742    Validation Loss: 1.5129
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.3677    0.9874    0.5358       159
+          F1     0.1667    0.0063    0.0121       159
+          F2     0.3333    0.2704    0.2986       159
+          F3     0.3062    0.4025    0.3478       159
+          F4     0.1250    0.0189    0.0328       159
+
+    accuracy                         0.3371       795
+   macro avg     0.2598    0.3371    0.2454       795
+weighted avg     0.2598    0.3371    0.2454       795
+
+Confusion Matrix:
+[[157   2   0   0   0]
+ [ 88   1  27  39   4]
+ [ 28   0  43  80   8]
+ [ 44   0  42  64   9]
+ [110   3  17  26   3]]
+Epoch 2/100, LR: 0.000050
+
+Epoch 2/100:
+Training Accuracy: 31.42%    Validation Accuracy: 36.73%
+Training Loss: 1.5290    Validation Loss: 1.4681
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.3672    1.0000    0.5372       159
+          F1     0.0000    0.0000    0.0000       159
+          F2     0.3765    0.7862    0.5092       159
+          F3     0.2857    0.0503    0.0856       159
+          F4     0.0000    0.0000    0.0000       159
+
+    accuracy                         0.3673       795
+   macro avg     0.2059    0.3673    0.2264       795
+weighted avg     0.2059    0.3673    0.2264       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 90   0  61   8   0]
+ [ 27   1 125   6   0]
+ [ 51   0  99   8   1]
+ [106   0  47   6   0]]
+Epoch 3/100, LR: 0.000064
+
+Epoch 3/100:
+Training Accuracy: 31.74%    Validation Accuracy: 35.09%
+Training Loss: 1.5080    Validation Loss: 1.4473
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.3857    0.9874    0.5548       159
+          F1     0.0000    0.0000    0.0000       159
+          F2     0.2353    0.0252    0.0455       159
+          F3     0.3181    0.7421    0.4453       159
+          F4     0.0000    0.0000    0.0000       159
+
+    accuracy                         0.3509       795
+   macro avg     0.1878    0.3509    0.2091       795
+weighted avg     0.1878    0.3509    0.2091       795
+
+Confusion Matrix:
+[[157   0   0   2   0]
+ [ 81   0   5  73   0]
+ [ 28   0   4 127   0]
+ [ 35   0   6 118   0]
+ [106   0   2  51   0]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 4/100, LR: 0.000082
+
+Epoch 4/100:
+Training Accuracy: 33.66%    Validation Accuracy: 38.74%
+Training Loss: 1.4863    Validation Loss: 1.3980
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.4141    1.0000    0.5856       159
+          F1     0.0000    0.0000    0.0000       159
+          F2     0.3436    0.7736    0.4758       159
+          F3     0.4906    0.1635    0.2453       159
+          F4     0.0000    0.0000    0.0000       159
+
+    accuracy                         0.3874       795
+   macro avg     0.2496    0.3874    0.2613       795
+weighted avg     0.2496    0.3874    0.2613       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 79   0  74   6   0]
+ [ 20   0 123  16   0]
+ [ 25   0 108  26   0]
+ [101   0  53   5   0]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 5/100, LR: 0.000104
+
+Epoch 5/100:
+Training Accuracy: 34.57%    Validation Accuracy: 40.25%
+Training Loss: 1.4389    Validation Loss: 1.3581
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.4454    1.0000    0.6163       159
+          F1     0.0000    0.0000    0.0000       159
+          F2     0.3750    0.2264    0.2824       159
+          F3     0.3655    0.7862    0.4990       159
+          F4     0.0000    0.0000    0.0000       159
+
+    accuracy                         0.4025       795
+   macro avg     0.2372    0.4025    0.2795       795
+weighted avg     0.2372    0.4025    0.2795       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 73   0  23  63   0]
+ [ 16   0  36 107   0]
+ [ 12   0  22 125   0]
+ [ 97   0  15  47   0]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 6/100, LR: 0.000132
+
+Epoch 6/100:
+Training Accuracy: 37.44%    Validation Accuracy: 43.02%
+Training Loss: 1.3832    Validation Loss: 1.3067
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.4732    1.0000    0.6424       159
+          F1     0.0000    0.0000    0.0000       159
+          F2     0.3552    0.6478    0.4588       159
+          F3     0.4734    0.5031    0.4878       159
+          F4     0.0000    0.0000    0.0000       159
+
+    accuracy                         0.4302       795
+   macro avg     0.2604    0.4302    0.3178       795
+weighted avg     0.2604    0.4302    0.3178       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 67   0  58  34   0]
+ [ 11   0 103  45   0]
+ [  3   0  76  80   0]
+ [ 96   0  53  10   0]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 7/100, LR: 0.000163
+
+Epoch 7/100:
+Training Accuracy: 40.50%    Validation Accuracy: 38.99%
+Training Loss: 1.3129    Validation Loss: 1.2884
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.4690    1.0000    0.6386       159
+          F1     0.0000    0.0000    0.0000       159
+          F2     0.3301    0.4277    0.3726       159
+          F3     0.5340    0.3459    0.4198       159
+          F4     0.1905    0.1761    0.1830       159
+
+    accuracy                         0.3899       795
+   macro avg     0.3047    0.3899    0.3228       795
+weighted avg     0.3047    0.3899    0.3228       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 67   0  41  17  34]
+ [ 12   0  68  25  54]
+ [  5   0  68  55  31]
+ [ 96   0  29   6  28]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 8/100, LR: 0.000199
+
+Epoch 8/100:
+Training Accuracy: 40.13%    Validation Accuracy: 42.01%
+Training Loss: 1.2771    Validation Loss: 1.2216
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.5016    1.0000    0.6681       159
+          F1     0.3571    0.0314    0.0578       159
+          F2     0.3415    0.6164    0.4395       159
+          F3     0.4207    0.4340    0.4272       159
+          F4     0.2308    0.0189    0.0349       159
+
+    accuracy                         0.4201       795
+   macro avg     0.3703    0.4201    0.3255       795
+weighted avg     0.3703    0.4201    0.3255       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 62   5  60  32   0]
+ [  2   5  98  49   5]
+ [  2   0  83  69   5]
+ [ 92   4  46  14   3]]
+Epoch 9/100, LR: 0.000238
+
+Epoch 9/100:
+Training Accuracy: 42.08%    Validation Accuracy: 41.26%
+Training Loss: 1.2448    Validation Loss: 1.2495
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.5000    1.0000    0.6667       159
+          F1     0.2000    0.0189    0.0345       159
+          F2     0.3430    0.5975    0.4358       159
+          F3     0.3838    0.4465    0.4128       159
+          F4     0.0000    0.0000    0.0000       159
+
+    accuracy                         0.4126       795
+   macro avg     0.2853    0.4126    0.3099       795
+weighted avg     0.2853    0.4126    0.3099       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 64   3  55  37   0]
+ [  0   6  95  58   0]
+ [  2   3  83  71   0]
+ [ 93   3  44  19   0]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 10/100, LR: 0.000280
+
+Epoch 10/100:
+Training Accuracy: 42.87%    Validation Accuracy: 43.27%
+Training Loss: 1.2248    Validation Loss: 1.2223
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.5146    1.0000    0.6795       159
+          F1     0.4138    0.0755    0.1277       159
+          F2     0.3927    0.6101    0.4778       159
+          F3     0.3619    0.4780    0.4119       159
+          F4     0.0000    0.0000    0.0000       159
+
+    accuracy                         0.4327       795
+   macro avg     0.3366    0.4327    0.3394       795
+weighted avg     0.3366    0.4327    0.3394       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 55  12  50  42   0]
+ [  0  13  97  49   0]
+ [  2   1  80  76   0]
+ [ 93   3  20  43   0]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 11/100, LR: 0.000325
+
+Epoch 11/100:
+Training Accuracy: 44.38%    Validation Accuracy: 40.63%
+Training Loss: 1.1971    Validation Loss: 1.3562
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.5032    1.0000    0.6695       159
+          F1     0.0727    0.0252    0.0374       159
+          F2     0.4479    0.2704    0.3373       159
+          F3     0.3567    0.7358    0.4805       159
+          F4     0.0000    0.0000    0.0000       159
+
+    accuracy                         0.4063       795
+   macro avg     0.2761    0.4063    0.3049       795
+weighted avg     0.2761    0.4063    0.3049       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 64   4  18  73   0]
+ [  0  24  43  92   0]
+ [  0  22  20 117   0]
+ [ 93   5  15  46   0]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 12/100, LR: 0.000372
+
+Epoch 12/100:
+Training Accuracy: 44.07%    Validation Accuracy: 39.62%
+Training Loss: 1.1778    Validation Loss: 1.2426
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.5265    1.0000    0.6898       159
+          F1     0.2083    0.0943    0.1299       159
+          F2     0.4151    0.1384    0.2075       159
+          F3     0.3194    0.7233    0.4432       159
+          F4     0.5000    0.0252    0.0479       159
+
+    accuracy                         0.3962       795
+   macro avg     0.3939    0.3962    0.3037       795
+weighted avg     0.3939    0.3962    0.3037       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 55  15   8  77   4]
+ [  0  23  22 114   0]
+ [  0  22  22 115   0]
+ [ 88  12   1  54   4]]
+Epoch 13/100, LR: 0.000420
+
+Epoch 13/100:
+Training Accuracy: 47.16%    Validation Accuracy: 47.92%
+Training Loss: 1.1223    Validation Loss: 1.1121
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.7040    0.9874    0.8220       159
+          F1     0.5522    0.2327    0.3274       159
+          F2     0.6250    0.0314    0.0599       159
+          F3     0.3355    0.9874    0.5008       159
+          F4     0.8621    0.1572    0.2660       159
+
+    accuracy                         0.4792       795
+   macro avg     0.6158    0.4792    0.3952       795
+weighted avg     0.6158    0.4792    0.3952       795
+
+Confusion Matrix:
+[[157   2   0   0   0]
+ [ 25  37   1  92   4]
+ [  0   0   5 154   0]
+ [  0   0   2 157   0]
+ [ 41  28   0  65  25]]
+Epoch 14/100, LR: 0.000470
+
+Epoch 14/100:
+Training Accuracy: 48.93%    Validation Accuracy: 50.44%
+Training Loss: 1.0730    Validation Loss: 1.0513
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.7067    1.0000    0.8281       159
+          F1     0.7368    0.0881    0.1573       159
+          F2     0.3616    0.8050    0.4990       159
+          F3     0.4417    0.3333    0.3799       159
+          F4     0.6104    0.2956    0.3983       159
+
+    accuracy                         0.5044       795
+   macro avg     0.5714    0.5044    0.4525       795
+weighted avg     0.5714    0.5044    0.4525       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 23  14  68  24  30]
+ [  0   0 128  31   0]
+ [  0   0 106  53   0]
+ [ 43   5  52  12  47]]
+Epoch 15/100, LR: 0.000520
+
+Epoch 15/100:
+Training Accuracy: 51.36%    Validation Accuracy: 46.29%
+Training Loss: 1.0419    Validation Loss: 1.0877
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.7833    1.0000    0.8785       159
+          F1     0.2432    0.5031    0.3279       159
+          F2     0.3974    0.3899    0.3937       159
+          F3     0.2857    0.0629    0.1031       159
+          F4     0.7917    0.3585    0.4935       159
+
+    accuracy                         0.4629       795
+   macro avg     0.5002    0.4629    0.4393       795
+weighted avg     0.5002    0.4629    0.4393       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 23  80  33   8  15]
+ [  2  85  62  10   0]
+ [  1 101  47  10   0]
+ [ 18  63  14   7  57]]
+Epoch 16/100, LR: 0.000570
+
+Epoch 16/100:
+Training Accuracy: 51.17%    Validation Accuracy: 42.14%
+Training Loss: 1.0350    Validation Loss: 1.5405
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.7430    1.0000    0.8525       159
+          F1     0.2161    0.6415    0.3233       159
+          F2     1.0000    0.0440    0.0843       159
+          F3     0.0000    0.0000    0.0000       159
+          F4     0.6569    0.4214    0.5134       159
+
+    accuracy                         0.4214       795
+   macro avg     0.5232    0.4214    0.3547       795
+weighted avg     0.5232    0.4214    0.3547       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 25 102   0   0  32]
+ [  6 145   7   0   1]
+ [  3 154   0   0   2]
+ [ 21  71   0   0  67]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 17/100, LR: 0.000620
+
+Epoch 17/100:
+Training Accuracy: 53.38%    Validation Accuracy: 58.11%
+Training Loss: 1.0006    Validation Loss: 0.9611
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9123    0.9811    0.9455       159
+          F1     0.4101    0.7170    0.5217       159
+          F2     0.4508    0.5472    0.4943       159
+          F3     0.5323    0.2075    0.2986       159
+          F4     0.7912    0.4528    0.5760       159
+
+    accuracy                         0.5811       795
+   macro avg     0.6193    0.5811    0.5672       795
+weighted avg     0.6193    0.5811    0.5672       795
+
+Confusion Matrix:
+[[156   2   1   0   0]
+ [  5 114  21  10   9]
+ [  0  61  87   8   3]
+ [  0  46  73  33   7]
+ [ 10  55  11  11  72]]
+Epoch 18/100, LR: 0.000669
+
+Epoch 18/100:
+Training Accuracy: 56.28%    Validation Accuracy: 56.23%
+Training Loss: 0.9660    Validation Loss: 1.0167
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.6795    1.0000    0.8092       159
+          F1     0.4844    0.1950    0.2780       159
+          F2     0.4091    0.8491    0.5521       159
+          F3     0.6667    0.4025    0.5020       159
+          F4     0.8169    0.3648    0.5043       159
+
+    accuracy                         0.5623       795
+   macro avg     0.6113    0.5623    0.5291       795
+weighted avg     0.6113    0.5623    0.5291       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 41  31  68   6  13]
+ [  0   4 135  20   0]
+ [  0  11  84  64   0]
+ [ 34  18  43   6  58]]
+Epoch 19/100, LR: 0.000716
+
+Epoch 19/100:
+Training Accuracy: 56.59%    Validation Accuracy: 41.89%
+Training Loss: 0.9478    Validation Loss: 1.5379
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.8323    0.8428    0.8375       159
+          F1     0.2020    0.3836    0.2646       159
+          F2     0.4206    0.3333    0.3719       159
+          F3     0.0000    0.0000    0.0000       159
+          F4     0.4126    0.5346    0.4658       159
+
+    accuracy                         0.4189       795
+   macro avg     0.3735    0.4189    0.3880       795
+weighted avg     0.3735    0.4189    0.3880       795
+
+Confusion Matrix:
+[[134   7   0   0  18]
+ [  7  61  29   0  62]
+ [  8  79  53   0  19]
+ [  5 100  32   0  22]
+ [  7  55  12   0  85]]
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Users\muham\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch 20/100, LR: 0.000760
+
+Epoch 20/100:
+Training Accuracy: 58.86%    Validation Accuracy: 53.46%
+Training Loss: 0.9190    Validation Loss: 1.1517
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.8820    0.8931    0.8875       159
+          F1     0.4427    0.3648    0.4000       159
+          F2     0.3918    0.4214    0.4061       159
+          F3     0.4247    0.7987    0.5546       159
+          F4     0.9394    0.1950    0.3229       159
+
+    accuracy                         0.5346       795
+   macro avg     0.6161    0.5346    0.5142       795
+weighted avg     0.6161    0.5346    0.5142       795
+
+Confusion Matrix:
+[[142  17   0   0   0]
+ [  8  58  37  54   2]
+ [  0   0  67  92   0]
+ [  0   0  32 127   0]
+ [ 11  56  35  26  31]]
+Epoch 21/100, LR: 0.000802
+
+Epoch 21/100:
+Training Accuracy: 58.71%    Validation Accuracy: 46.92%
+Training Loss: 0.9242    Validation Loss: 1.2561
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.6115    1.0000    0.7589       159
+          F1     0.2511    0.3711    0.2995       159
+          F2     0.4706    0.2013    0.2819       159
+          F3     0.8400    0.2642    0.4019       159
+          F4     0.4451    0.5094    0.4751       159
+
+    accuracy                         0.4692       795
+   macro avg     0.5236    0.4692    0.4435       795
+weighted avg     0.5236    0.4692    0.4435       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 56  59   7   2  35]
+ [  0  81  32   3  43]
+ [  2  64  28  42  23]
+ [ 43  31   1   3  81]]
+Epoch 22/100, LR: 0.000841
+
+Epoch 22/100:
+Training Accuracy: 57.35%    Validation Accuracy: 52.45%
+Training Loss: 0.9612    Validation Loss: 1.0764
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9375    0.9434    0.9404       159
+          F1     0.4194    0.3270    0.3675       159
+          F2     0.3357    0.5975    0.4299       159
+          F3     0.4976    0.6478    0.5628       159
+          F4     0.8095    0.1069    0.1889       159
+
+    accuracy                         0.5245       795
+   macro avg     0.5999    0.5245    0.4979       795
+weighted avg     0.5999    0.5245    0.4979       795
+
+Confusion Matrix:
+[[150   6   3   0   0]
+ [  2  52  76  25   4]
+ [  0   1  95  63   0]
+ [  0   0  56 103   0]
+ [  8  65  53  16  17]]
+Epoch 23/100, LR: 0.000877
+
+Epoch 23/100:
+Training Accuracy: 59.12%    Validation Accuracy: 48.55%
+Training Loss: 0.9074    Validation Loss: 1.0593
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.7756    1.0000    0.8736       159
+          F1     0.2790    0.6352    0.3877       159
+          F2     0.4080    0.3208    0.3592       159
+          F3     0.6905    0.1824    0.2886       159
+          F4     0.7541    0.2893    0.4182       159
+
+    accuracy                         0.4855       795
+   macro avg     0.5814    0.4855    0.4654       795
+weighted avg     0.5814    0.4855    0.4654       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 24 101  24   1   9]
+ [  1  93  51  10   4]
+ [  5  81  42  29   2]
+ [ 16  87   8   2  46]]
+Epoch 24/100, LR: 0.000909
+
+Epoch 24/100:
+Training Accuracy: 60.44%    Validation Accuracy: 39.12%
+Training Loss: 0.8883    Validation Loss: 1.7430
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.4454    1.0000    0.6163       159
+          F1     0.2381    0.0943    0.1351       159
+          F2     0.1667    0.0063    0.0121       159
+          F3     0.5000    0.0063    0.0124       159
+          F4     0.3678    0.8491    0.5133       159
+
+    accuracy                         0.3912       795
+   macro avg     0.3436    0.3912    0.2579       795
+weighted avg     0.3436    0.3912    0.2579       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 56  15   0   0  88]
+ [ 61  16   1   0  81]
+ [ 62  28   5   1  63]
+ [ 19   4   0   1 135]]
+Epoch 25/100, LR: 0.000936
+
+Epoch 25/100:
+Training Accuracy: 61.39%    Validation Accuracy: 49.81%
+Training Loss: 0.8675    Validation Loss: 1.1897
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     1.0000    0.7484    0.8561       159
+          F1     0.3237    0.3522    0.3373       159
+          F2     0.4073    0.6352    0.4963       159
+          F3     0.4583    0.6918    0.5514       159
+          F4     0.6667    0.0629    0.1149       159
+
+    accuracy                         0.4981       795
+   macro avg     0.5712    0.4981    0.4712       795
+weighted avg     0.5712    0.4981    0.4712       795
+
+Confusion Matrix:
+[[119  34   6   0   0]
+ [  0  56  58  43   2]
+ [  0   0 101  56   2]
+ [  0   0  48 110   1]
+ [  0  83  35  31  10]]
+Epoch 26/100, LR: 0.000959
+
+Epoch 26/100:
+Training Accuracy: 62.65%    Validation Accuracy: 46.16%
+Training Loss: 0.8644    Validation Loss: 1.4128
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.7327    1.0000    0.8457       159
+          F1     0.2474    0.7358    0.3703       159
+          F2     0.5000    0.0126    0.0245       159
+          F3     0.6667    0.0126    0.0247       159
+          F4     0.8878    0.5472    0.6770       159
+
+    accuracy                         0.4616       795
+   macro avg     0.6069    0.4616    0.3885       795
+weighted avg     0.6069    0.4616    0.3885       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 36 117   0   1   5]
+ [  8 149   2   0   0]
+ [  2 149   0   2   6]
+ [ 12  58   2   0  87]]
+Epoch 27/100, LR: 0.000977
+
+Epoch 27/100:
+Training Accuracy: 63.19%    Validation Accuracy: 54.59%
+Training Loss: 0.8399    Validation Loss: 1.0454
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     1.0000    0.8365    0.9110       159
+          F1     0.3543    0.6730    0.4642       159
+          F2     0.4366    0.3899    0.4120       159
+          F3     0.6045    0.5094    0.5529       159
+          F4     0.6071    0.3208    0.4198       159
+
+    accuracy                         0.5459       795
+   macro avg     0.6005    0.5459    0.5520       795
+weighted avg     0.6005    0.5459    0.5520       795
+
+Confusion Matrix:
+[[133  17   9   0   0]
+ [  0 107  21  16  15]
+ [  0  54  62  28  15]
+ [  0  33  42  81   3]
+ [  0  91   8   9  51]]
+Epoch 28/100, LR: 0.000990
+
+Epoch 28/100:
+Training Accuracy: 64.83%    Validation Accuracy: 51.57%
+Training Loss: 0.8092    Validation Loss: 1.1336
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9298    1.0000    0.9636       159
+          F1     0.2812    0.7925    0.4152       159
+          F2     0.9000    0.0566    0.1065       159
+          F3     0.0000    0.0000    0.0000       159
+          F4     0.7030    0.7296    0.7160       159
+
+    accuracy                         0.5157       795
+   macro avg     0.5628    0.5157    0.4403       795
+weighted avg     0.5628    0.5157    0.4403       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  5 126   0   0  28]
+ [  0 142   9   0   8]
+ [  0 146   0   0  13]
+ [  7  34   1   1 116]]
+Epoch 29/100, LR: 0.000997
+
+Epoch 29/100:
+Training Accuracy: 63.85%    Validation Accuracy: 54.84%
+Training Loss: 0.8150    Validation Loss: 0.9710
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.8238    1.0000    0.9034       159
+          F1     0.3440    0.7421    0.4701       159
+          F2     0.4375    0.0440    0.0800       159
+          F3     0.5347    0.3396    0.4154       159
+          F4     0.6901    0.6164    0.6512       159
+
+    accuracy                         0.5484       795
+   macro avg     0.5660    0.5484    0.5040       795
+weighted avg     0.5660    0.5484    0.5040       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  9 118   4   6  22]
+ [  6 104   7  34   8]
+ [  5  82   4  54  14]
+ [ 14  39   1   7  98]]
+Epoch 30/100, LR: 0.001000
+
+Epoch 30/100:
+Training Accuracy: 65.96%    Validation Accuracy: 58.49%
+Training Loss: 0.7902    Validation Loss: 0.9856
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.7718    1.0000    0.8712       159
+          F1     0.4551    0.4465    0.4508       159
+          F2     0.4237    0.6289    0.5063       159
+          F3     0.5620    0.4843    0.5203       159
+          F4     0.9667    0.3648    0.5297       159
+
+    accuracy                         0.5849       795
+   macro avg     0.6359    0.5849    0.5757       795
+weighted avg     0.6359    0.5849    0.5757       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 21  71  54  11   2]
+ [  0  18 100  41   0]
+ [  0  24  58  77   0]
+ [ 26  43  24   8  58]]
+Epoch 31/100, LR: 0.000999
+
+Epoch 31/100:
+Training Accuracy: 65.30%    Validation Accuracy: 63.14%
+Training Loss: 0.7776    Validation Loss: 0.8183
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9565    0.9686    0.9625       159
+          F1     0.4123    0.8428    0.5537       159
+          F2     0.5667    0.4277    0.4875       159
+          F3     0.6818    0.3774    0.4858       159
+          F4     0.8515    0.5409    0.6615       159
+
+    accuracy                         0.6314       795
+   macro avg     0.6938    0.6314    0.6302       795
+weighted avg     0.6938    0.6314    0.6302       795
+
+Confusion Matrix:
+[[154   5   0   0   0]
+ [  1 134   8   7   9]
+ [  0  79  68  10   2]
+ [  0  61  34  60   4]
+ [  6  46  10  11  86]]
+Epoch 32/100, LR: 0.000998
+
+Epoch 32/100:
+Training Accuracy: 66.50%    Validation Accuracy: 48.93%
+Training Loss: 0.7646    Validation Loss: 1.2660
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.8603    0.9686    0.9112       159
+          F1     0.3175    0.5472    0.4018       159
+          F2     0.8333    0.0314    0.0606       159
+          F3     0.6667    0.0881    0.1556       159
+          F4     0.4095    0.8113    0.5443       159
+
+    accuracy                         0.4893       795
+   macro avg     0.6175    0.4893    0.4147       795
+weighted avg     0.6175    0.4893    0.4147       795
+
+Confusion Matrix:
+[[154   5   0   0   0]
+ [  0  87   0   1  71]
+ [  7  84   5   6  57]
+ [  9  77   1  14  58]
+ [  9  21   0   0 129]]
+Epoch 33/100, LR: 0.000995
+
+Epoch 33/100:
+Training Accuracy: 66.31%    Validation Accuracy: 65.79%
+Training Loss: 0.7789    Validation Loss: 0.7482
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9286    0.9811    0.9541       159
+          F1     0.7174    0.4151    0.5259       159
+          F2     0.4141    0.8491    0.5567       159
+          F3     0.8000    0.3270    0.4643       159
+          F4     0.7917    0.7170    0.7525       159
+
+    accuracy                         0.6579       795
+   macro avg     0.7303    0.6579    0.6507       795
+weighted avg     0.7303    0.6579    0.6507       795
+
+Confusion Matrix:
+[[156   3   0   0   0]
+ [  6  66  60   4  23]
+ [  0  13 135   6   5]
+ [  0   2 103  52   2]
+ [  6   8  28   3 114]]
+Epoch 34/100, LR: 0.000992
+
+Epoch 34/100:
+Training Accuracy: 67.57%    Validation Accuracy: 68.93%
+Training Loss: 0.7503    Validation Loss: 0.6926
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     1.0000    0.9686    0.9840       159
+          F1     0.7113    0.4340    0.5391       159
+          F2     0.4937    0.7358    0.5909       159
+          F3     0.6250    0.5346    0.5763       159
+          F4     0.7193    0.7736    0.7455       159
+
+    accuracy                         0.6893       795
+   macro avg     0.7099    0.6893    0.6871       795
+weighted avg     0.7099    0.6893    0.6871       795
+
+Confusion Matrix:
+[[154   5   0   0   0]
+ [  0  69  51  16  23]
+ [  0   5 117  21  16]
+ [  0   5  60  85   9]
+ [  0  13   9  14 123]]
+Epoch 35/100, LR: 0.000987
+
+Epoch 35/100:
+Training Accuracy: 69.59%    Validation Accuracy: 68.18%
+Training Loss: 0.7221    Validation Loss: 0.6880
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9086    1.0000    0.9521       159
+          F1     0.5308    0.7044    0.6054       159
+          F2     0.5000    0.5346    0.5167       159
+          F3     0.7200    0.4528    0.5560       159
+          F4     0.8201    0.7170    0.7651       159
+
+    accuracy                         0.6818       795
+   macro avg     0.6959    0.6818    0.6791       795
+weighted avg     0.6959    0.6818    0.6791       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  6 112  24   5  12]
+ [  0  51  85  15   8]
+ [  0  29  53  72   5]
+ [ 10  19   8   8 114]]
+Epoch 36/100, LR: 0.000982
+
+Epoch 36/100:
+Training Accuracy: 67.35%    Validation Accuracy: 66.67%
+Training Loss: 0.7558    Validation Loss: 0.9069
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9494    0.9434    0.9464       159
+          F1     0.7500    0.3019    0.4305       159
+          F2     0.4915    0.7233    0.5852       159
+          F3     0.5082    0.7799    0.6154       159
+          F4     0.9789    0.5849    0.7323       159
+
+    accuracy                         0.6667       795
+   macro avg     0.7356    0.6667    0.6620       795
+weighted avg     0.7356    0.6667    0.6620       795
+
+Confusion Matrix:
+[[150   3   5   1   0]
+ [  2  48  60  47   2]
+ [  0   0 115  44   0]
+ [  0   0  35 124   0]
+ [  6  13  19  28  93]]
+Epoch 37/100, LR: 0.000975
+
+Epoch 37/100:
+Training Accuracy: 70.03%    Validation Accuracy: 64.65%
+Training Loss: 0.6862    Validation Loss: 0.8285
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9630    0.9811    0.9720       159
+          F1     0.5283    0.7044    0.6038       159
+          F2     0.5141    0.4591    0.4850       159
+          F3     0.6635    0.4340    0.5247       159
+          F4     0.5943    0.6541    0.6228       159
+
+    accuracy                         0.6465       795
+   macro avg     0.6526    0.6465    0.6417       795
+weighted avg     0.6526    0.6465    0.6417       795
+
+Confusion Matrix:
+[[156   3   0   0   0]
+ [  0 112   7   7  33]
+ [  0  36  73  21  29]
+ [  0  27  54  69   9]
+ [  6  34   8   7 104]]
+Epoch 38/100, LR: 0.000968
+
+Epoch 38/100:
+Training Accuracy: 69.87%    Validation Accuracy: 68.55%
+Training Loss: 0.6978    Validation Loss: 0.7510
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9608    0.9245    0.9423       159
+          F1     0.8026    0.3836    0.5191       159
+          F2     0.5297    0.7296    0.6138       159
+          F3     0.5928    0.6226    0.6074       159
+          F4     0.6778    0.7673    0.7198       159
+
+    accuracy                         0.6855       795
+   macro avg     0.7127    0.6855    0.6805       795
+weighted avg     0.7127    0.6855    0.6805       795
+
+Confusion Matrix:
+[[147   2   2   0   8]
+ [  3  61  44  22  29]
+ [  0   1 116  30  12]
+ [  0   0  51  99   9]
+ [  3  12   6  16 122]]
+Epoch 39/100, LR: 0.000960
+
+Epoch 39/100:
+Training Accuracy: 72.02%    Validation Accuracy: 63.77%
+Training Loss: 0.6863    Validation Loss: 0.8555
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9235    0.9874    0.9544       159
+          F1     0.4256    0.6478    0.5137       159
+          F2     0.5099    0.6478    0.5706       159
+          F3     0.9130    0.2642    0.4098       159
+          F4     0.7556    0.6415    0.6939       159
+
+    accuracy                         0.6377       795
+   macro avg     0.7055    0.6377    0.6285       795
+weighted avg     0.7055    0.6377    0.6285       795
+
+Confusion Matrix:
+[[157   2   0   0   0]
+ [  2 103  38   2  14]
+ [  0  48 103   2   6]
+ [  2  52  50  42  13]
+ [  9  37  11   0 102]]
+Epoch 40/100, LR: 0.000950
+
+Epoch 40/100:
+Training Accuracy: 72.59%    Validation Accuracy: 54.59%
+Training Loss: 0.6548    Validation Loss: 1.1679
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9321    0.9497    0.9408       159
+          F1     0.3333    0.8931    0.4855       159
+          F2     0.7391    0.1069    0.1868       159
+          F3     0.5672    0.4780    0.5188       159
+          F4     0.9600    0.3019    0.4593       159
+
+    accuracy                         0.5459       795
+   macro avg     0.7063    0.5459    0.5182       795
+weighted avg     0.7063    0.5459    0.5182       795
+
+Confusion Matrix:
+[[151   8   0   0   0]
+ [  7 142   0   8   2]
+ [  0  96  17  46   0]
+ [  2  79   2  76   0]
+ [  2 101   4   4  48]]
+Epoch 41/100, LR: 0.000940
+
+Epoch 41/100:
+Training Accuracy: 72.27%    Validation Accuracy: 68.93%
+Training Loss: 0.6655    Validation Loss: 0.7202
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9875    0.9937    0.9906       159
+          F1     0.5707    0.6604    0.6122       159
+          F2     0.4925    0.8239    0.6165       159
+          F3     0.6907    0.4214    0.5234       159
+          F4     0.9886    0.5472    0.7045       159
+
+    accuracy                         0.6893       795
+   macro avg     0.7460    0.6893    0.6894       795
+weighted avg     0.7460    0.6893    0.6894       795
+
+Confusion Matrix:
+[[158   1   0   0   0]
+ [  0 105  44  10   0]
+ [  0  19 131   9   0]
+ [  0  16  75  67   1]
+ [  2  43  16  11  87]]
+Epoch 42/100, LR: 0.000929
+
+Epoch 42/100:
+Training Accuracy: 73.00%    Validation Accuracy: 70.57%
+Training Loss: 0.6378    Validation Loss: 0.6866
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9506    0.9686    0.9595       159
+          F1     0.6312    0.6352    0.6332       159
+          F2     0.5304    0.7673    0.6272       159
+          F3     0.6667    0.4654    0.5481       159
+          F4     0.8333    0.6918    0.7560       159
+
+    accuracy                         0.7057       795
+   macro avg     0.7225    0.7057    0.7048       795
+weighted avg     0.7225    0.7057    0.7048       795
+
+Confusion Matrix:
+[[154   0   2   0   3]
+ [  2 101  34  16   6]
+ [  0  22 122   7   8]
+ [  0  16  64  74   5]
+ [  6  21   8  14 110]]
+Epoch 43/100, LR: 0.000917
+
+Epoch 43/100:
+Training Accuracy: 74.01%    Validation Accuracy: 70.69%
+Training Loss: 0.6274    Validation Loss: 0.6748
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9679    0.9497    0.9587       159
+          F1     0.6949    0.5157    0.5921       159
+          F2     0.4930    0.8805    0.6321       159
+          F3     0.6870    0.4969    0.5766       159
+          F4     0.9016    0.6918    0.7829       159
+
+    accuracy                         0.7069       795
+   macro avg     0.7489    0.7069    0.7085       795
+weighted avg     0.7489    0.7069    0.7085       795
+
+Confusion Matrix:
+[[151   8   0   0   0]
+ [  0  82  58   9  10]
+ [  0   3 140  14   2]
+ [  0   7  73  79   0]
+ [  5  18  13  13 110]]
+Epoch 44/100, LR: 0.000904
+
+Epoch 44/100:
+Training Accuracy: 73.94%    Validation Accuracy: 72.58%
+Training Loss: 0.6076    Validation Loss: 0.6306
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9750    0.9811    0.9781       159
+          F1     0.6863    0.6604    0.6731       159
+          F2     0.5019    0.8491    0.6308       159
+          F3     0.8657    0.3648    0.5133       159
+          F4     0.8425    0.7736    0.8066       159
+
+    accuracy                         0.7258       795
+   macro avg     0.7743    0.7258    0.7204       795
+weighted avg     0.7743    0.7258    0.7204       795
+
+Confusion Matrix:
+[[156   3   0   0   0]
+ [  0 105  40   3  11]
+ [  0  18 135   1   5]
+ [  0  14  80  58   7]
+ [  4  13  14   5 123]]
+Epoch 45/100, LR: 0.000891
+
+Epoch 45/100:
+Training Accuracy: 75.65%    Validation Accuracy: 68.55%
+Training Loss: 0.5987    Validation Loss: 0.7755
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     1.0000    0.9245    0.9608       159
+          F1     0.5045    0.7107    0.5901       159
+          F2     0.6196    0.3585    0.4542       159
+          F3     0.6379    0.6981    0.6667       159
+          F4     0.7405    0.7358    0.7382       159
+
+    accuracy                         0.6855       795
+   macro avg     0.7005    0.6855    0.6820       795
+weighted avg     0.7005    0.6855    0.6820       795
+
+Confusion Matrix:
+[[147   3   9   0   0]
+ [  0 113   7  18  21]
+ [  0  48  57  40  14]
+ [  0  27  15 111   6]
+ [  0  33   4   5 117]]
+Epoch 46/100, LR: 0.000876
+
+Epoch 46/100:
+Training Accuracy: 75.02%    Validation Accuracy: 68.68%
+Training Loss: 0.6052    Validation Loss: 0.7723
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9244    1.0000    0.9607       159
+          F1     0.5131    0.6164    0.5600       159
+          F2     0.5357    0.6604    0.5915       159
+          F3     0.6695    0.4969    0.5704       159
+          F4     0.8898    0.6604    0.7581       159
+
+    accuracy                         0.6868       795
+   macro avg     0.7065    0.6868    0.6882       795
+weighted avg     0.7065    0.6868    0.6882       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  7  98  28  16  10]
+ [  0  43 105   8   3]
+ [  0  27  53  79   0]
+ [  6  23  10  15 105]]
+Epoch 47/100, LR: 0.000861
+
+Epoch 47/100:
+Training Accuracy: 76.31%    Validation Accuracy: 72.33%
+Training Loss: 0.5808    Validation Loss: 0.6745
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9815    1.0000    0.9907       159
+          F1     0.6133    0.6981    0.6529       159
+          F2     0.6718    0.5535    0.6069       159
+          F3     0.7692    0.5031    0.6084       159
+          F4     0.6313    0.8616    0.7287       159
+
+    accuracy                         0.7233       795
+   macro avg     0.7334    0.7233    0.7175       795
+weighted avg     0.7334    0.7233    0.7175       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  1 111  11   5  31]
+ [  0  35  88  13  23]
+ [  0  25  28  80  26]
+ [  2  10   4   6 137]]
+Epoch 48/100, LR: 0.000845
+
+Epoch 48/100:
+Training Accuracy: 76.21%    Validation Accuracy: 72.08%
+Training Loss: 0.5843    Validation Loss: 0.7048
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9937    0.9937    0.9937       159
+          F1     0.7105    0.5094    0.5934       159
+          F2     0.5249    0.7296    0.6105       159
+          F3     0.6062    0.7358    0.6648       159
+          F4     0.9352    0.6352    0.7566       159
+
+    accuracy                         0.7208       795
+   macro avg     0.7541    0.7208    0.7238       795
+weighted avg     0.7541    0.7208    0.7238       795
+
+Confusion Matrix:
+[[158   0   0   1   0]
+ [  0  81  45  28   5]
+ [  0   6 116  35   2]
+ [  0   2  40 117   0]
+ [  1  25  20  12 101]]
+Epoch 49/100, LR: 0.000829
+
+Epoch 49/100:
+Training Accuracy: 76.62%    Validation Accuracy: 70.31%
+Training Loss: 0.5802    Validation Loss: 0.7596
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9138    1.0000    0.9550       159
+          F1     0.5419    0.6101    0.5740       159
+          F2     0.5844    0.5660    0.5751       159
+          F3     0.6145    0.6415    0.6277       159
+          F4     0.9098    0.6981    0.7900       159
+
+    accuracy                         0.7031       795
+   macro avg     0.7129    0.7031    0.7043       795
+weighted avg     0.7129    0.7031    0.7043       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [ 12  97  18  22  10]
+ [  0  39  90  29   1]
+ [  0  24  33 102   0]
+ [  3  19  13  13 111]]
+Epoch 50/100, LR: 0.000812
+
+Epoch 50/100:
+Training Accuracy: 76.06%    Validation Accuracy: 79.25%
+Training Loss: 0.5867    Validation Loss: 0.5055
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9742    0.9497    0.9618       159
+          F1     0.7919    0.7421    0.7662       159
+          F2     0.6222    0.8805    0.7292       159
+          F3     0.7966    0.5912    0.6787       159
+          F4     0.8581    0.7987    0.8274       159
+
+    accuracy                         0.7925       795
+   macro avg     0.8086    0.7925    0.7926       795
+weighted avg     0.8086    0.7925    0.7926       795
+
+Confusion Matrix:
+[[151   0   0   0   8]
+ [  1 118  30   3   7]
+ [  0   7 140   7   5]
+ [  0  15  49  94   1]
+ [  3   9   6  14 127]]
+Epoch 51/100, LR: 0.000794
+
+Epoch 51/100:
+Training Accuracy: 78.39%    Validation Accuracy: 80.50%
+Training Loss: 0.5523    Validation Loss: 0.5086
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9693    0.9937    0.9814       159
+          F1     0.9126    0.5912    0.7176       159
+          F2     0.6222    0.8805    0.7292       159
+          F3     0.8120    0.6792    0.7397       159
+          F4     0.8187    0.8805    0.8485       159
+
+    accuracy                         0.8050       795
+   macro avg     0.8270    0.8050    0.8033       795
+weighted avg     0.8270    0.8050    0.8033       795
+
+Confusion Matrix:
+[[158   1   0   0   0]
+ [  1  94  38  10  16]
+ [  0   1 140  10   8]
+ [  0   1  43 108   7]
+ [  4   6   4   5 140]]
+Epoch 52/100, LR: 0.000775
+
+Epoch 52/100:
+Training Accuracy: 78.83%    Validation Accuracy: 80.00%
+Training Loss: 0.5208    Validation Loss: 0.4803
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9755    1.0000    0.9876       159
+          F1     0.7102    0.7862    0.7463       159
+          F2     0.6892    0.6415    0.6645       159
+          F3     0.7279    0.6730    0.6993       159
+          F4     0.8882    0.8994    0.8938       159
+
+    accuracy                         0.8000       795
+   macro avg     0.7982    0.8000    0.7983       795
+weighted avg     0.7982    0.8000    0.7983       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 125   8  15  11]
+ [  0  31 102  21   5]
+ [  0  15  35 107   2]
+ [  4   5   3   4 143]]
+Epoch 53/100, LR: 0.000756
+
+Epoch 53/100:
+Training Accuracy: 79.24%    Validation Accuracy: 73.58%
+Training Loss: 0.5278    Validation Loss: 0.6076
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9755    1.0000    0.9876       159
+          F1     0.7544    0.5409    0.6300       159
+          F2     0.6296    0.7484    0.6839       159
+          F3     0.8247    0.5031    0.6250       159
+          F4     0.6078    0.8868    0.7212       159
+
+    accuracy                         0.7358       795
+   macro avg     0.7584    0.7358    0.7295       795
+weighted avg     0.7584    0.7358    0.7295       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0  86  25   7  41]
+ [  0   8 119   5  27]
+ [  0  15  41  80  23]
+ [  4   5   4   5 141]]
+Epoch 54/100, LR: 0.000737
+
+Epoch 54/100:
+Training Accuracy: 77.16%    Validation Accuracy: 64.53%
+Training Loss: 0.5579    Validation Loss: 0.8848
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9815    1.0000    0.9907       159
+          F1     0.4000    0.8176    0.5372       159
+          F2     0.7895    0.1887    0.3046       159
+          F3     0.7089    0.3522    0.4706       159
+          F4     0.7225    0.8679    0.7886       159
+
+    accuracy                         0.6453       795
+   macro avg     0.7205    0.6453    0.6183       795
+weighted avg     0.7205    0.6453    0.6183       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 130   4   3  22]
+ [  0  97  30  20  12]
+ [  0  80   4  56  19]
+ [  3  18   0   0 138]]
+Epoch 55/100, LR: 0.000717
+
+Epoch 55/100:
+Training Accuracy: 80.50%    Validation Accuracy: 76.98%
+Training Loss: 0.4905    Validation Loss: 0.5643
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9755    1.0000    0.9876       159
+          F1     0.8374    0.6478    0.7305       159
+          F2     0.5893    0.8302    0.6893       159
+          F3     0.9342    0.4465    0.6043       159
+          F4     0.7033    0.9245    0.7989       159
+
+    accuracy                         0.7698       795
+   macro avg     0.8079    0.7698    0.7621       795
+weighted avg     0.8079    0.7698    0.7621       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 103  27   0  29]
+ [  0   5 132   1  21]
+ [  0  14  62  71  12]
+ [  4   1   3   4 147]]
+Epoch 56/100, LR: 0.000696
+
+Epoch 56/100:
+Training Accuracy: 79.24%    Validation Accuracy: 81.01%
+Training Loss: 0.5079    Validation Loss: 0.4470
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9876    1.0000    0.9938       159
+          F1     0.8780    0.6792    0.7660       159
+          F2     0.6017    0.8742    0.7128       159
+          F3     0.7353    0.6289    0.6780       159
+          F4     0.9583    0.8679    0.9109       159
+
+    accuracy                         0.8101       795
+   macro avg     0.8322    0.8101    0.8123       795
+weighted avg     0.8322    0.8101    0.8123       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 108  30  18   3]
+ [  0  12 139   5   3]
+ [  0   2  57 100   0]
+ [  2   1   5  13 138]]
+Epoch 57/100, LR: 0.000675
+
+Epoch 57/100:
+Training Accuracy: 80.25%    Validation Accuracy: 81.01%
+Training Loss: 0.4857    Validation Loss: 0.5229
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9695    1.0000    0.9845       159
+          F1     0.8246    0.5912    0.6886       159
+          F2     0.6087    0.8805    0.7198       159
+          F3     0.8163    0.7547    0.7843       159
+          F4     0.9357    0.8239    0.8763       159
+
+    accuracy                         0.8101       795
+   macro avg     0.8310    0.8101    0.8107       795
+weighted avg     0.8310    0.8101    0.8107       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  2  94  50   7   6]
+ [  0   6 140  13   0]
+ [  0   2  34 120   3]
+ [  3  12   6   7 131]]
+Epoch 58/100, LR: 0.000654
+
+Epoch 58/100:
+Training Accuracy: 82.18%    Validation Accuracy: 78.99%
+Training Loss: 0.4432    Validation Loss: 0.5384
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9634    0.9937    0.9783       159
+          F1     0.7730    0.7925    0.7826       159
+          F2     0.5918    0.9119    0.7178       159
+          F3     0.7850    0.5283    0.6316       159
+          F4     0.9914    0.7233    0.8364       159
+
+    accuracy                         0.7899       795
+   macro avg     0.8209    0.7899    0.7893       795
+weighted avg     0.8209    0.7899    0.7893       795
+
+Confusion Matrix:
+[[158   1   0   0   0]
+ [  0 126  24   9   0]
+ [  0   8 145   6   0]
+ [  0   9  65  84   1]
+ [  6  19  11   8 115]]
+Epoch 59/100, LR: 0.000633
+
+Epoch 59/100:
+Training Accuracy: 83.03%    Validation Accuracy: 81.38%
+Training Loss: 0.4247    Validation Loss: 0.4397
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.7310    0.6667    0.6974       159
+          F2     0.6632    0.8050    0.7273       159
+          F3     0.7961    0.7610    0.7781       159
+          F4     0.9172    0.8365    0.8750       159
+
+    accuracy                         0.8138       795
+   macro avg     0.8203    0.8138    0.8149       795
+weighted avg     0.8203    0.8138    0.8149       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 106  35   8  10]
+ [  0   9 128  22   0]
+ [  0  16  20 121   2]
+ [  1  14  10   1 133]]
+Epoch 60/100, LR: 0.000611
+
+Epoch 60/100:
+Training Accuracy: 82.56%    Validation Accuracy: 81.76%
+Training Loss: 0.4576    Validation Loss: 0.4346
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9876    1.0000    0.9938       159
+          F1     0.8409    0.6981    0.7629       159
+          F2     0.6016    0.9308    0.7309       159
+          F3     0.8991    0.6164    0.7313       159
+          F4     0.9116    0.8428    0.8758       159
+
+    accuracy                         0.8176       795
+   macro avg     0.8482    0.8176    0.8189       795
+weighted avg     0.8482    0.8176    0.8189       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 111  38   0  10]
+ [  0   7 148   4   0]
+ [  0   5  53  98   3]
+ [  2   9   7   7 134]]
+Epoch 61/100, LR: 0.000589
+
+Epoch 61/100:
+Training Accuracy: 82.56%    Validation Accuracy: 78.36%
+Training Loss: 0.4231    Validation Loss: 0.5364
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.7582    0.7296    0.7436       159
+          F2     0.7903    0.6164    0.6926       159
+          F3     0.7852    0.6667    0.7211       159
+          F4     0.6457    0.9057    0.7539       159
+
+    accuracy                         0.7836       795
+   macro avg     0.7946    0.7836    0.7816       795
+weighted avg     0.7946    0.7836    0.7816       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 116   6   7  30]
+ [  0  16  98  17  28]
+ [  0  13  19 106  21]
+ [  1   8   1   5 144]]
+Epoch 62/100, LR: 0.000567
+
+Epoch 62/100:
+Training Accuracy: 83.97%    Validation Accuracy: 83.27%
+Training Loss: 0.4144    Validation Loss: 0.4298
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.7950    0.8050    0.8000       159
+          F2     0.8030    0.6667    0.7285       159
+          F3     0.6603    0.8679    0.7500       159
+          F4     0.9850    0.8239    0.8973       159
+
+    accuracy                         0.8327       795
+   macro avg     0.8474    0.8327    0.8345       795
+weighted avg     0.8474    0.8327    0.8345       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 128   8  23   0]
+ [  0  17 106  36   0]
+ [  0   6  13 138   2]
+ [  1  10   5  12 131]]
+Epoch 63/100, LR: 0.000545
+
+Epoch 63/100:
+Training Accuracy: 83.25%    Validation Accuracy: 81.38%
+Training Loss: 0.4188    Validation Loss: 0.5106
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9815    1.0000    0.9907       159
+          F1     0.8299    0.7673    0.7974       159
+          F2     0.6048    0.9434    0.7371       159
+          F3     0.9467    0.4465    0.6068       159
+          F4     0.8896    0.9119    0.9006       159
+
+    accuracy                         0.8138       795
+   macro avg     0.8505    0.8138    0.8065       795
+weighted avg     0.8505    0.8138    0.8065       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  1 122  28   0   8]
+ [  0   8 150   1   0]
+ [  0  13  65  71  10]
+ [  2   4   5   3 145]]
+Epoch 64/100, LR: 0.000522
+
+Epoch 64/100:
+Training Accuracy: 84.45%    Validation Accuracy: 78.87%
+Training Loss: 0.4039    Validation Loss: 0.5644
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9755    1.0000    0.9876       159
+          F1     0.6993    0.6730    0.6859       159
+          F2     0.7662    0.7421    0.7540       159
+          F3     0.7857    0.6918    0.7358       159
+          F4     0.7189    0.8365    0.7733       159
+
+    accuracy                         0.7887       795
+   macro avg     0.7891    0.7887    0.7873       795
+weighted avg     0.7891    0.7887    0.7873       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  1 107  15  15  21]
+ [  0  21 118   3  17]
+ [  0  17  18 110  14]
+ [  3   8   3  12 133]]
+Epoch 65/100, LR: 0.000500
+
+Epoch 65/100:
+Training Accuracy: 83.60%    Validation Accuracy: 75.85%
+Training Loss: 0.4248    Validation Loss: 0.6150
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9682    0.9560    0.9620       159
+          F1     0.8718    0.4277    0.5738       159
+          F2     0.5980    0.7673    0.6722       159
+          F3     0.6126    0.8553    0.7139       159
+          F4     0.9328    0.7862    0.8532       159
+
+    accuracy                         0.7585       795
+   macro avg     0.7967    0.7585    0.7550       795
+weighted avg     0.7967    0.7585    0.7550       795
+
+Confusion Matrix:
+[[152   0   3   4   0]
+ [  1  68  50  35   5]
+ [  0   2 122  34   1]
+ [  0   3  17 136   3]
+ [  4   5  12  13 125]]
+Epoch 66/100, LR: 0.000477
+
+Epoch 66/100:
+Training Accuracy: 82.49%    Validation Accuracy: 74.09%
+Training Loss: 0.4496    Validation Loss: 0.6340
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     1.0000    0.9245    0.9608       159
+          F1     0.5446    0.7673    0.6371       159
+          F2     0.6875    0.4843    0.5683       159
+          F3     0.6667    0.6415    0.6538       159
+          F4     0.8868    0.8868    0.8868       159
+
+    accuracy                         0.7409       795
+   macro avg     0.7571    0.7409    0.7414       795
+weighted avg     0.7571    0.7409    0.7414       795
+
+Confusion Matrix:
+[[147   0  10   0   2]
+ [  0 122   6  26   5]
+ [  0  64  77  16   2]
+ [  0  32  16 102   9]
+ [  0   6   3   9 141]]
+Epoch 67/100, LR: 0.000455
+
+Epoch 67/100:
+Training Accuracy: 84.95%    Validation Accuracy: 83.77%
+Training Loss: 0.3830    Validation Loss: 0.4114
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9541    0.6541    0.7761       159
+          F2     0.7182    0.8176    0.7647       159
+          F3     0.7590    0.7925    0.7754       159
+          F4     0.8212    0.9245    0.8698       159
+
+    accuracy                         0.8377       795
+   macro avg     0.8493    0.8377    0.8366       795
+weighted avg     0.8493    0.8377    0.8366       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 104  20  21  14]
+ [  0   3 130  10  16]
+ [  0   1  30 126   2]
+ [  1   1   1   9 147]]
+Epoch 68/100, LR: 0.000433
+
+Epoch 68/100:
+Training Accuracy: 85.55%    Validation Accuracy: 88.05%
+Training Loss: 0.3761    Validation Loss: 0.3154
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     1.0000    1.0000    1.0000       159
+          F1     0.8304    0.8931    0.8606       159
+          F2     0.8378    0.7799    0.8078       159
+          F3     0.8897    0.7610    0.8203       159
+          F4     0.8508    0.9686    0.9059       159
+
+    accuracy                         0.8805       795
+   macro avg     0.8818    0.8805    0.8789       795
+weighted avg     0.8818    0.8805    0.8789       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 142   7   2   8]
+ [  0  14 124  10  11]
+ [  0  14  16 121   8]
+ [  0   1   1   3 154]]
+Epoch 69/100, LR: 0.000411
+
+Epoch 69/100:
+Training Accuracy: 86.59%    Validation Accuracy: 88.81%
+Training Loss: 0.3488    Validation Loss: 0.3119
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9103    0.8302    0.8684       159
+          F2     0.7513    0.9119    0.8239       159
+          F3     0.8442    0.8176    0.8307       159
+          F4     0.9790    0.8805    0.9272       159
+
+    accuracy                         0.8881       795
+   macro avg     0.8957    0.8881    0.8894       795
+weighted avg     0.8957    0.8881    0.8894       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 132  19   6   2]
+ [  0   2 145  11   1]
+ [  0   4  25 130   0]
+ [  1   7   4   7 140]]
+Epoch 70/100, LR: 0.000389
+
+Epoch 70/100:
+Training Accuracy: 88.33%    Validation Accuracy: 90.19%
+Training Loss: 0.3057    Validation Loss: 0.2872
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.8683    0.9119    0.8896       159
+          F2     0.8228    0.8176    0.8202       159
+          F3     0.9241    0.8428    0.8816       159
+          F4     0.9030    0.9371    0.9198       159
+
+    accuracy                         0.9019       795
+   macro avg     0.9024    0.9019    0.9016       795
+weighted avg     0.9024    0.9019    0.9016       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 145   9   1   4]
+ [  0  13 130   7   9]
+ [  0   7  15 134   3]
+ [  1   2   4   3 149]]
+Epoch 71/100, LR: 0.000367
+
+Epoch 71/100:
+Training Accuracy: 87.98%    Validation Accuracy: 62.26%
+Training Loss: 0.3106    Validation Loss: 1.0863
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.8196    1.0000    0.9008       159
+          F1     0.4203    0.7296    0.5333       159
+          F2     0.6228    0.4465    0.5201       159
+          F3     0.9231    0.1509    0.2595       159
+          F4     0.6757    0.7862    0.7267       159
+
+    accuracy                         0.6226       795
+   macro avg     0.6923    0.6226    0.5881       795
+weighted avg     0.6923    0.6226    0.5881       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  4 116  25   0  14]
+ [ 14  51  71   2  21]
+ [ 11  82  17  24  25]
+ [  6  27   1   0 125]]
+Epoch 72/100, LR: 0.000345
+
+Epoch 72/100:
+Training Accuracy: 87.76%    Validation Accuracy: 86.04%
+Training Loss: 0.3126    Validation Loss: 0.3626
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9755    1.0000    0.9876       159
+          F1     0.8447    0.8553    0.8500       159
+          F2     0.7005    0.9119    0.7923       159
+          F3     0.8571    0.6792    0.7579       159
+          F4     0.9855    0.8553    0.9158       159
+
+    accuracy                         0.8604       795
+   macro avg     0.8727    0.8604    0.8607       795
+weighted avg     0.8727    0.8604    0.8607       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 136  19   4   0]
+ [  0   5 145   7   2]
+ [  0  10  41 108   0]
+ [  4  10   2   7 136]]
+Epoch 73/100, LR: 0.000324
+
+Epoch 73/100:
+Training Accuracy: 88.71%    Validation Accuracy: 89.18%
+Training Loss: 0.3000    Validation Loss: 0.3110
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9435    0.7358    0.8269       159
+          F2     0.7989    0.9245    0.8571       159
+          F3     0.8373    0.8742    0.8554       159
+          F4     0.9130    0.9245    0.9187       159
+
+    accuracy                         0.8918       795
+   macro avg     0.8973    0.8918    0.8910       795
+weighted avg     0.8973    0.8918    0.8910       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 117  20  12  10]
+ [  0   3 147   8   1]
+ [  0   1  16 139   3]
+ [  1   3   1   7 147]]
+Epoch 74/100, LR: 0.000303
+
+Epoch 74/100:
+Training Accuracy: 89.46%    Validation Accuracy: 84.28%
+Training Loss: 0.2898    Validation Loss: 0.4480
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9936    0.9811    0.9873       159
+          F1     0.9327    0.6101    0.7376       159
+          F2     0.8061    0.8365    0.8210       159
+          F3     0.6380    0.8868    0.7421       159
+          F4     0.9662    0.8994    0.9316       159
+
+    accuracy                         0.8428       795
+   macro avg     0.8673    0.8428    0.8439       795
+weighted avg     0.8673    0.8428    0.8439       795
+
+Confusion Matrix:
+[[156   0   0   3   0]
+ [  0  97  16  42   4]
+ [  0   3 133  22   1]
+ [  0   4  14 141   0]
+ [  1   0   2  13 143]]
+Epoch 75/100, LR: 0.000283
+
+Epoch 75/100:
+Training Accuracy: 90.95%    Validation Accuracy: 90.44%
+Training Loss: 0.2567    Validation Loss: 0.2841
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9876    1.0000    0.9938       159
+          F1     0.8675    0.9057    0.8862       159
+          F2     0.8171    0.8994    0.8563       159
+          F3     0.9058    0.7862    0.8418       159
+          F4     0.9548    0.9308    0.9427       159
+
+    accuracy                         0.9044       795
+   macro avg     0.9066    0.9044    0.9041       795
+weighted avg     0.9066    0.9044    0.9041       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 144   8   2   5]
+ [  0   7 143   8   1]
+ [  0  10  23 125   1]
+ [  2   5   1   3 148]]
+Epoch 76/100, LR: 0.000263
+
+Epoch 76/100:
+Training Accuracy: 88.77%    Validation Accuracy: 82.77%
+Training Loss: 0.2892    Validation Loss: 0.5366
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9578    1.0000    0.9785       159
+          F1     0.9160    0.6855    0.7842       159
+          F2     0.7673    0.7673    0.7673       159
+          F3     0.9355    0.7296    0.8198       159
+          F4     0.6696    0.9560    0.7876       159
+
+    accuracy                         0.8277       795
+   macro avg     0.8492    0.8277    0.8275       795
+weighted avg     0.8492    0.8277    0.8275       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  3 109  12   2  33]
+ [  0   6 122   4  27]
+ [  0   4  24 116  15]
+ [  4   0   1   2 152]]
+Epoch 77/100, LR: 0.000243
+
+Epoch 77/100:
+Training Accuracy: 90.98%    Validation Accuracy: 89.56%
+Training Loss: 0.2563    Validation Loss: 0.2787
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9755    1.0000    0.9876       159
+          F1     0.8485    0.8805    0.8642       159
+          F2     0.9111    0.7736    0.8367       159
+          F3     0.8688    0.8742    0.8715       159
+          F4     0.8779    0.9497    0.9124       159
+
+    accuracy                         0.8956       795
+   macro avg     0.8963    0.8956    0.8945       795
+weighted avg     0.8963    0.8956    0.8945       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 140   4   5  10]
+ [  0  17 123  13   6]
+ [  0   8   7 139   5]
+ [  4   0   1   3 151]]
+Epoch 78/100, LR: 0.000224
+
+Epoch 78/100:
+Training Accuracy: 89.68%    Validation Accuracy: 85.79%
+Training Loss: 0.2793    Validation Loss: 0.4030
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9876    1.0000    0.9938       159
+          F1     0.7987    0.7987    0.7987       159
+          F2     0.8843    0.6730    0.7643       159
+          F3     0.7143    0.9434    0.8130       159
+          F4     0.9653    0.8742    0.9175       159
+
+    accuracy                         0.8579       795
+   macro avg     0.8700    0.8579    0.8575       795
+weighted avg     0.8700    0.8579    0.8575       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 127   5  22   5]
+ [  0  22 107  30   0]
+ [  0   4   5 150   0]
+ [  2   6   4   8 139]]
+Epoch 79/100, LR: 0.000206
+
+Epoch 79/100:
+Training Accuracy: 91.36%    Validation Accuracy: 89.56%
+Training Loss: 0.2500    Validation Loss: 0.2870
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9815    1.0000    0.9907       159
+          F1     0.8974    0.8805    0.8889       159
+          F2     0.8066    0.9182    0.8588       159
+          F3     0.8686    0.7484    0.8041       159
+          F4     0.9308    0.9308    0.9308       159
+
+    accuracy                         0.8956       795
+   macro avg     0.8970    0.8956    0.8946       795
+weighted avg     0.8970    0.8956    0.8946       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  1 140  10   6   2]
+ [  0   3 146   8   2]
+ [  0  11  22 119   7]
+ [  2   2   3   4 148]]
+Epoch 80/100, LR: 0.000188
+
+Epoch 80/100:
+Training Accuracy: 92.33%    Validation Accuracy: 92.08%
+Training Loss: 0.2165    Validation Loss: 0.2552
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9876    1.0000    0.9938       159
+          F1     0.9504    0.8428    0.8933       159
+          F2     0.8588    0.9560    0.9048       159
+          F3     0.8562    0.8616    0.8589       159
+          F4     0.9615    0.9434    0.9524       159
+
+    accuracy                         0.9208       795
+   macro avg     0.9229    0.9208    0.9206       795
+weighted avg     0.9229    0.9208    0.9206       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  1 134   9  11   4]
+ [  0   2 152   5   0]
+ [  0   5  15 137   2]
+ [  1   0   1   7 150]]
+Epoch 81/100, LR: 0.000171
+
+Epoch 81/100:
+Training Accuracy: 91.77%    Validation Accuracy: 92.70%
+Training Loss: 0.2320    Validation Loss: 0.2422
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9500    0.8365    0.8896       159
+          F2     0.8981    0.8868    0.8924       159
+          F3     0.8613    0.9371    0.8976       159
+          F4     0.9394    0.9748    0.9568       159
+
+    accuracy                         0.9270       795
+   macro avg     0.9285    0.9270    0.9267       795
+weighted avg     0.9285    0.9270    0.9267       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 133  10  14   2]
+ [  0   6 141   8   4]
+ [  0   1   5 149   4]
+ [  1   0   1   2 155]]
+Epoch 82/100, LR: 0.000154
+
+Epoch 82/100:
+Training Accuracy: 92.05%    Validation Accuracy: 90.69%
+Training Loss: 0.2382    Validation Loss: 0.2712
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     1.0000    1.0000    1.0000       159
+          F1     0.9779    0.8365    0.9017       159
+          F2     0.7437    0.9308    0.8268       159
+          F3     0.9209    0.8050    0.8591       159
+          F4     0.9444    0.9623    0.9533       159
+
+    accuracy                         0.9069       795
+   macro avg     0.9174    0.9069    0.9082       795
+weighted avg     0.9174    0.9069    0.9082       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 133  23   0   3]
+ [  0   1 148   7   3]
+ [  0   1  27 128   3]
+ [  0   1   1   4 153]]
+Epoch 83/100, LR: 0.000138
+
+Epoch 83/100:
+Training Accuracy: 92.59%    Validation Accuracy: 90.94%
+Training Loss: 0.2029    Validation Loss: 0.2584
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9815    1.0000    0.9907       159
+          F1     0.9281    0.8113    0.8658       159
+          F2     0.8402    0.8931    0.8659       159
+          F3     0.8650    0.8868    0.8758       159
+          F4     0.9383    0.9560    0.9470       159
+
+    accuracy                         0.9094       795
+   macro avg     0.9106    0.9094    0.9090       795
+weighted avg     0.9106    0.9094    0.9090       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  2 129  17   9   2]
+ [  0   4 142   9   4]
+ [  0   5   9 141   4]
+ [  1   1   1   4 152]]
+Epoch 84/100, LR: 0.000123
+
+Epoch 84/100:
+Training Accuracy: 92.68%    Validation Accuracy: 95.47%
+Training Loss: 0.2039    Validation Loss: 0.1552
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9932    0.9119    0.9508       159
+          F2     0.8851    0.9686    0.9249       159
+          F3     0.9481    0.9182    0.9329       159
+          F4     0.9627    0.9748    0.9687       159
+
+    accuracy                         0.9547       795
+   macro avg     0.9565    0.9547    0.9549       795
+weighted avg     0.9565    0.9547    0.9549       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 145   9   2   3]
+ [  0   0 154   4   1]
+ [  0   1  10 146   2]
+ [  1   0   1   2 155]]
+Epoch 85/100, LR: 0.000109
+
+Epoch 85/100:
+Training Accuracy: 94.42%    Validation Accuracy: 94.84%
+Training Loss: 0.1536    Validation Loss: 0.1854
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9733    0.9182    0.9450       159
+          F2     0.8580    0.9497    0.9015       159
+          F3     0.9536    0.9057    0.9290       159
+          F4     0.9747    0.9686    0.9716       159
+
+    accuracy                         0.9484       795
+   macro avg     0.9507    0.9484    0.9488       795
+weighted avg     0.9507    0.9484    0.9488       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 146  11   0   2]
+ [  0   3 151   4   1]
+ [  0   1  13 144   1]
+ [  1   0   1   3 154]]
+Epoch 86/100, LR: 0.000095
+
+Epoch 86/100:
+Training Accuracy: 94.23%    Validation Accuracy: 91.95%
+Training Loss: 0.1685    Validation Loss: 0.2571
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9846    0.8050    0.8858       159
+          F2     0.8042    0.9560    0.8736       159
+          F3     0.8797    0.8742    0.8770       159
+          F4     0.9684    0.9623    0.9653       159
+
+    accuracy                         0.9195       795
+   macro avg     0.9261    0.9195    0.9197       795
+weighted avg     0.9261    0.9195    0.9197       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 128  19   9   3]
+ [  0   0 152   7   0]
+ [  0   1  17 139   2]
+ [  1   1   1   3 153]]
+Epoch 87/100, LR: 0.000083
+
+Epoch 87/100:
+Training Accuracy: 94.04%    Validation Accuracy: 94.72%
+Training Loss: 0.1630    Validation Loss: 0.1820
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     1.0000    1.0000    1.0000       159
+          F1     0.9042    0.9497    0.9264       159
+          F2     0.9108    0.8994    0.9051       159
+          F3     0.9474    0.9057    0.9260       159
+          F4     0.9750    0.9811    0.9781       159
+
+    accuracy                         0.9472       795
+   macro avg     0.9475    0.9472    0.9471       795
+weighted avg     0.9475    0.9472    0.9471       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 151   5   0   3]
+ [  0  10 143   6   0]
+ [  0   6   8 144   1]
+ [  0   0   1   2 156]]
+Epoch 88/100, LR: 0.000071
+
+Epoch 88/100:
+Training Accuracy: 95.46%    Validation Accuracy: 94.97%
+Training Loss: 0.1390    Validation Loss: 0.1582
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9737    0.9308    0.9518       159
+          F2     0.8706    0.9308    0.8997       159
+          F3     0.9419    0.9182    0.9299       159
+          F4     0.9747    0.9686    0.9716       159
+
+    accuracy                         0.9497       795
+   macro avg     0.9509    0.9497    0.9500       795
+weighted avg     0.9509    0.9497    0.9500       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 148   9   0   2]
+ [  0   3 148   7   1]
+ [  0   1  11 146   1]
+ [  1   0   2   2 154]]
+Epoch 89/100, LR: 0.000060
+
+Epoch 89/100:
+Training Accuracy: 95.65%    Validation Accuracy: 95.85%
+Training Loss: 0.1321    Validation Loss: 0.1653
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9675    0.9371    0.9521       159
+          F2     0.9096    0.9497    0.9292       159
+          F3     0.9264    0.9497    0.9379       159
+          F4     1.0000    0.9560    0.9775       159
+
+    accuracy                         0.9585       795
+   macro avg     0.9595    0.9585    0.9587       795
+weighted avg     0.9595    0.9585    0.9587       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 149   7   3   0]
+ [  0   4 151   4   0]
+ [  0   1   7 151   0]
+ [  1   0   1   5 152]]
+Epoch 90/100, LR: 0.000049
+
+Epoch 90/100:
+Training Accuracy: 95.71%    Validation Accuracy: 96.73%
+Training Loss: 0.1169    Validation Loss: 0.1312
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9623    0.9623    0.9623       159
+          F2     0.9264    0.9497    0.9379       159
+          F3     0.9618    0.9497    0.9557       159
+          F4     0.9936    0.9748    0.9841       159
+
+    accuracy                         0.9673       795
+   macro avg     0.9676    0.9673    0.9674       795
+weighted avg     0.9676    0.9673    0.9674       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 153   5   0   1]
+ [  0   4 151   4   0]
+ [  0   2   6 151   0]
+ [  1   0   1   2 155]]
+Epoch 91/100, LR: 0.000040
+
+Epoch 91/100:
+Training Accuracy: 95.36%    Validation Accuracy: 96.35%
+Training Loss: 0.1525    Validation Loss: 0.1452
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9876    1.0000    0.9938       159
+          F1     0.9799    0.9182    0.9481       159
+          F2     0.9048    0.9560    0.9297       159
+          F3     0.9682    0.9560    0.9620       159
+          F4     0.9812    0.9874    0.9843       159
+
+    accuracy                         0.9635       795
+   macro avg     0.9643    0.9635    0.9636       795
+weighted avg     0.9643    0.9635    0.9636       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  1 146   9   1   2]
+ [  0   3 152   4   0]
+ [  0   0   6 152   1]
+ [  1   0   1   0 157]]
+Epoch 92/100, LR: 0.000032
+
+Epoch 92/100:
+Training Accuracy: 96.09%    Validation Accuracy: 96.35%
+Training Loss: 0.1232    Validation Loss: 0.1280
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9500    0.9560    0.9530       159
+          F2     0.9096    0.9497    0.9292       159
+          F3     0.9675    0.9371    0.9521       159
+          F4     1.0000    0.9748    0.9873       159
+
+    accuracy                         0.9635       795
+   macro avg     0.9642    0.9635    0.9637       795
+weighted avg     0.9642    0.9635    0.9637       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 152   7   0   0]
+ [  0   4 151   4   0]
+ [  0   3   7 149   0]
+ [  1   1   1   1 155]]
+Epoch 93/100, LR: 0.000024
+
+Epoch 93/100:
+Training Accuracy: 96.53%    Validation Accuracy: 94.47%
+Training Loss: 0.1136    Validation Loss: 0.1711
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9608    0.9245    0.9423       159
+          F2     0.8436    0.9497    0.8935       159
+          F3     0.9524    0.8805    0.9150       159
+          F4     0.9872    0.9686    0.9778       159
+
+    accuracy                         0.9447       795
+   macro avg     0.9475    0.9447    0.9451       795
+weighted avg     0.9475    0.9447    0.9451       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 147  12   0   0]
+ [  0   3 151   4   1]
+ [  0   3  15 140   1]
+ [  1   0   1   3 154]]
+Epoch 94/100, LR: 0.000018
+
+Epoch 94/100:
+Training Accuracy: 96.50%    Validation Accuracy: 96.73%
+Training Loss: 0.1068    Validation Loss: 0.1223
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9747    0.9686    0.9716       159
+          F2     0.9162    0.9623    0.9387       159
+          F3     0.9551    0.9371    0.9460       159
+          F4     1.0000    0.9686    0.9840       159
+
+    accuracy                         0.9673       795
+   macro avg     0.9679    0.9673    0.9674       795
+weighted avg     0.9679    0.9673    0.9674       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 154   5   0   0]
+ [  0   2 153   4   0]
+ [  0   2   8 149   0]
+ [  1   0   1   3 154]]
+Epoch 95/100, LR: 0.000012
+
+Epoch 95/100:
+Training Accuracy: 96.97%    Validation Accuracy: 96.86%
+Training Loss: 0.0953    Validation Loss: 0.1432
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9747    0.9686    0.9716       159
+          F2     0.9217    0.9623    0.9415       159
+          F3     0.9554    0.9434    0.9494       159
+          F4     1.0000    0.9686    0.9840       159
+
+    accuracy                         0.9686       795
+   macro avg     0.9691    0.9686    0.9687       795
+weighted avg     0.9691    0.9686    0.9687       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 154   5   0   0]
+ [  0   2 153   4   0]
+ [  0   2   7 150   0]
+ [  1   0   1   3 154]]
+Epoch 96/100, LR: 0.000008
+
+Epoch 96/100:
+Training Accuracy: 96.78%    Validation Accuracy: 96.73%
+Training Loss: 0.1037    Validation Loss: 0.1421
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9742    0.9497    0.9618       159
+          F2     0.9000    0.9623    0.9301       159
+          F3     0.9739    0.9371    0.9551       159
+          F4     1.0000    0.9874    0.9937       159
+
+    accuracy                         0.9673       795
+   macro avg     0.9684    0.9673    0.9675       795
+weighted avg     0.9684    0.9673    0.9675       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 151   8   0   0]
+ [  0   2 153   4   0]
+ [  0   2   8 149   0]
+ [  1   0   1   0 157]]
+Epoch 97/100, LR: 0.000004
+
+Epoch 97/100:
+Training Accuracy: 97.35%    Validation Accuracy: 97.11%
+Training Loss: 0.0896    Validation Loss: 0.1354
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9565    0.9686    0.9625       159
+          F2     0.9444    0.9623    0.9533       159
+          F3     0.9677    0.9434    0.9554       159
+          F4     0.9936    0.9811    0.9873       159
+
+    accuracy                         0.9711       795
+   macro avg     0.9712    0.9711    0.9711       795
+weighted avg     0.9712    0.9711    0.9711       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 154   4   0   1]
+ [  0   2 153   4   0]
+ [  0   5   4 150   0]
+ [  1   0   1   1 156]]
+Epoch 98/100, LR: 0.000002
+
+Epoch 98/100:
+Training Accuracy: 97.32%    Validation Accuracy: 96.35%
+Training Loss: 0.0866    Validation Loss: 0.1378
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9444    0.9623    0.9533       159
+          F2     0.9162    0.9623    0.9387       159
+          F3     0.9732    0.9119    0.9416       159
+          F4     0.9936    0.9811    0.9873       159
+
+    accuracy                         0.9635       795
+   macro avg     0.9642    0.9635    0.9635       795
+weighted avg     0.9642    0.9635    0.9635       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 153   5   0   1]
+ [  0   2 153   4   0]
+ [  0   6   8 145   0]
+ [  1   1   1   0 156]]
+Epoch 99/100, LR: 0.000000
+
+Epoch 99/100:
+Training Accuracy: 96.40%    Validation Accuracy: 96.35%
+Training Loss: 0.1071    Validation Loss: 0.1496
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9565    0.9686    0.9625       159
+          F2     0.9152    0.9497    0.9321       159
+          F3     0.9548    0.9308    0.9427       159
+          F4     1.0000    0.9686    0.9840       159
+
+    accuracy                         0.9635       795
+   macro avg     0.9641    0.9635    0.9636       795
+weighted avg     0.9641    0.9635    0.9636       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 154   5   0   0]
+ [  0   4 151   4   0]
+ [  0   3   8 148   0]
+ [  1   0   1   3 154]]
+Epoch 100/100, LR: 0.000000
+
+Epoch 100/100:
+Training Accuracy: 97.32%    Validation Accuracy: 97.23%
+Training Loss: 0.0887    Validation Loss: 0.1266
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          F0     0.9938    1.0000    0.9969       159
+          F1     0.9686    0.9686    0.9686       159
+          F2     0.9273    0.9623    0.9444       159
+          F3     0.9740    0.9434    0.9585       159S
+          F4     1.0000    0.9874    0.9937       159
+
+    accuracy                         0.9723       795
+   macro avg     0.9727    0.9723    0.9724       795
+weighted avg     0.9727    0.9723    0.9724       795
+
+Confusion Matrix:
+[[159   0   0   0   0]
+ [  0 154   5   0   0]
+ [  0   2 153   4   0]
+ [  0   3   6 150   0]
+ [  1   0   1   0 157]]
