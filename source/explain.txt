@@ -1,0 +1,29 @@
+[INFO] Data Augmentation has been added to the training pipeline.
+
+[TRAINING AUGMENTATIONS]
+  - RandomResizedCrop(224, scale=(0.8, 1.0))
+        → randomly crops and rescales each training image, simulating zoom/scale changes
+  - RandomHorizontalFlip(p=0.5)
+        → flips images left-right with 50% chance
+  - RandomRotation(degrees=15)
+        → rotates images randomly between -15° and +15°
+  - ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.05)
+        → randomly changes color properties of images
+  - ToTensor()
+        → converts image to PyTorch tensor
+  - Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225])
+        → normalizes pixel values for ResNet training
+
+[VALIDATION PIPELINE]
+  - Resize(256)
+  - CenterCrop(224)
+  - ToTensor()
+  - Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225])
+
+[HOW IT WORKS]
+  • Training dataset is rebuilt per fold with `train_transforms`
+  • Validation dataset uses `val_transforms` (no randomness)
+  • Augmentations are applied on-the-fly inside DataLoader
+  • Each epoch, the same image may appear differently 
+    (cropped, flipped, rotated, or color-shifted)
+  • This increases data diversity and reduces overfitting
